@@ -1,0 +1,9 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+// Sample statable object (Component na ilalagay sa object)
+public class sampleStatableObject: Monobehavior{
+    StateMachine sm = new StateMachine();
+}
